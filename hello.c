@@ -1,0 +1,3 @@
+  git add .gitignore
+  git commit -m 'added gitignore file'
+  git push -u origin main
