@@ -1,18 +1,17 @@
-  git add .gitignore
-  git commit -m 'added gitignore file'
-  git push -u origin main
+/**
+ * Author: Yasir Almotawa
+ *         Yalmotaw2@huskers.unl.edu
+ * Date: 2022/Aug/26
+ *
+ * A simple hello world program in C
+ *
+ */
+#include <stdlib.h>
+#include <stdio.h>
 
-git commit -m 'initial commit'
+int main(int argc, char **argv) {
 
-git branch -m main
+  printf("Yasir Almotawa, Biological sciences!\n");
 
-git remote add origin https://LOGIN:TOKEN@github.com/LOGIN/hello.git
-
-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
-
-YasirAlmotawa
-
-git push -u origin main
-
-git remote set-url origin https://LOGIN:TOKEN@github.com/LOGIN/hello.git
-
+  return 0;
+}
